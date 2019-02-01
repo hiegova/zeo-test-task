@@ -1,0 +1,18 @@
+@mixin fontSettings($conf: ()) {
+  $conf: extend(
+    (
+      family: sans-serif,
+      size: 100%,
+      color: #000,
+      weight: normal,
+      style: normal
+    ),
+    $conf
+  );
+
+  font-family: map-get($conf, family);
+  font-size: map-get($conf, size);
+  color: map-get($conf, color);
+  font-weight: map-get($conf, weight);
+  font-style: map-get($conf, style);
+}

@@ -1,7 +1,6 @@
 mixin popup(data={content: {text:""}, m:""})
   +b('popup', {m:data.m}, 'div')
     +e('wrap', {m:data.m}, 'div')
-      //- (class="hidden")
       +e('warning-icon', {}, 'img')(src='../blocks/popup/img/icon-warning_notify-red.svg')
       +e('text', {}, 'p')
         !=data.content.text

@@ -1,8 +1,8 @@
 const merge = require('webpack-merge');
 const common = require('./webpack.common.js');
+const autoprefixer = require("autoprefixer");
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const HtmlBeautifyPlugin = require('html-beautify-webpack-plugin');
-const autoprefixer = require("autoprefixer");
 
 const postCss = {
   loader: "postcss-loader",

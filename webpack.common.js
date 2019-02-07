@@ -40,14 +40,14 @@ module.exports = {
 
   module: {
     rules: [
-      { test: /\.pug$/, use: ['html-loader', 'pug-html-loader'] },
+      { test: /\.html$/, use: ['html-loader'] },
       { test: /\.(gif|png|jpe?g|svg)$/i, use: [imgLoader, imgOptimize] },
       { test: /\.(woff|woff2|eot|ttf|otf)$/, use: ['file-loader'] },
     ]
   },
 
   plugins: [
-    new HTMLWebpackPlugin({ template: 'src/templates/index.pug', filename: 'index.html' }),
+    new HTMLWebpackPlugin({ template: 'src/index.html', filename: 'index.html' }),
   ]
 
 };

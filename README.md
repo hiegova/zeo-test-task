@@ -17,13 +17,12 @@
 - BEM
 
 ## Описание реализации
-Превью решения можно посмотреть [здесь](https://codepen.io/hiegova/full/daZgGm) на **codepen.io**.
+Превью решения можно посмотреть [здесь](http://htmlpreview.github.io/?https://github.com/hiegova/zeo-test-task/blob/master/dist/index.html) на **codepen.io**.
 
 Используемые инструменты:
 - Cборка проекта - **Webpack 4+**
-- HTML-шаблонизатор - **Pug**
 - CSS-препроцессор - **SCSS**
 - Обработка сценариев - **Vanilla JS**
-- Методология - **BEM**
+- Методология CSS-классов - **BEM**
 
 Работа Pop Up и CSS-анимация реализованы обработкой событий *onclick* с добавлением/удалением CSS-классов.

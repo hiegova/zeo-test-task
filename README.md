@@ -17,7 +17,7 @@
 - BEM
 
 ## Описание реализации
-Превью решения можно посмотреть [здесь](http://htmlpreview.github.io/?https://github.com/hiegova/zeo-test-task/blob/master/dist/index.html) на **codepen.io**.
+Превью решения можно посмотреть [здесь](http://htmlpreview.github.io/?https://github.com/hiegova/zeo-test-task/blob/master/dist/index.html).
 
 Используемые инструменты:
 - Cборка проекта - **Webpack 4+**

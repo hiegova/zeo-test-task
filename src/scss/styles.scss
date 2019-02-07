@@ -23,7 +23,6 @@ body {
 }
 
 .button {
-  box-sizing: border-box;
   width: 208px;
   height: 38px;
   display: block;
@@ -39,9 +38,10 @@ body {
   line-height: 38px;
 
   &--warning {
+    height: 38px;
     background-color: $bg-color--warning;
     color: $font-color--warning;
-    border: none;
+    border-color: $bg-color--warning;
   }
 }
 
